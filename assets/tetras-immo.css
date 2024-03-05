@@ -1,0 +1,16 @@
+body{
+    background-color: #CEDADA;
+}
+.inika-regular{
+    font-family: "Inika","serif";
+}
+
+header{
+    width: 100vw;
+    height: 80vh;
+    background-image: url("Tetras-immio.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
