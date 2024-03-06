@@ -1,16 +1,27 @@
 *{
     font-family: "Inika","serif";
 }
-
-body{
-    background-color: #CEDADA;
-}
 header{
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     background-image: url("Tetras-immio.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
+.separator{
+    border-bottom: solid black;
+    display: inline-block;
+    width: 100px;
+}
+
+.sub-title{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.container-portfolio,
+.imgs-portfolio{
+    max-width: 800px;
+}
