@@ -16,20 +16,20 @@
 <div class="container">
     <div class="row mb-3">
         <div class="col d-flex flex-column align-items-center" style="gap:20px">
-            <h1 class="inika-regular">DESIGNING TOMORROW, TODAY</h1>
+            <h1 class="inika-regular devise">DESIGNING TOMORROW, TODAY</h1>
             <button type="button" class="btn btn-secondary btn-lg" style="width: 200px">Contact Us !</button>
         </div>
     </div>
     <div class="row mb-lg-5 mt-5">
-        <div class="col">
+        <div class="col sub-title-wrapper">
             <h2 class="sub-title">Our Expertise</h2>
         </div>
     </div>
-    <div class="row mb-lg-5 d-flex align-items-center">
-        <div class="col-6" style="contain: content">
+    <div class="row mb-lg-5 d-flex align-items-center our-expertise-child">
+        <div class="col-6 expertise-child-wraper" style="contain: content">
             <img src="assets/Interrieur-luxe.webp" alt="interieur de luxe">
         </div>
-        <div class="col-6">
+        <div class="col-6 expertise-child-wraper">
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
@@ -40,8 +40,8 @@
             </p>
         </div>
     </div>
-    <div class="row mb-3 d-flex align-items-center">
-        <div class="col-6">
+    <div class="row mb-3 d-flex align-items-center our-expertise-child reverse">
+        <div class="col-6 expertise-child-wraper">
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
@@ -51,12 +51,12 @@
                 laborum.
             </p>
         </div>
-        <div class="col-6" style="contain: content">
+        <div class="col-6 expertise-child-wraper" style="contain: content">
             <img src="assets/Exterieur-luxe.webp" alt="interieur de luxe">
         </div>
     </div>
     <div class="row mb-lg-5 mt-5">
-        <div class="col">
+        <div class="col sub-title-wrapper">
             <h2 class="sub-title">Our Projects</h2>
         </div>
     </div>
@@ -79,7 +79,7 @@
         </div>
     </div>
     <div class="container p-0 imgs-portfolio">
-        <div class="row p-0 mb-4">
+        <div class="row p-0 mb-4 img-wrapper">
             <div class="col-4 outdoor-1 ">
                 <img src="assets/Outdoor-1.png" alt="Outdoor picture">
             </div>
@@ -90,7 +90,7 @@
                 <img src="assets/Outdoor-3.png" alt="Outdoor picture">
             </div>
         </div>
-        <div class="row p-0">
+        <div class="row p-0 img-wrapper">
             <div class="col-4 ">
                 <img src="assets/Outdoor-4.png" alt="Outdoor picture">
             </div>
@@ -104,7 +104,7 @@
     </div>
     <div class="container">
         <div class="row mb-lg-5 mt-5">
-            <div class="col">
+            <div class="col sub-title-wrapper">
                 <h2 class="sub-title">Some Questions ?</h2>
             </div>
         </div>
@@ -173,11 +173,11 @@
     </div>
     <div class="container">
         <div class="row mb-lg-5 mt-5">
-            <div class="col">
+            <div class="col sub-title-wrapper">
                 <h2 class="sub-title">What's make us different ?</h2>
             </div>
         </div>
-        <div class="row mb-lg-5 mt-5">
+        <div class="row mb-lg-5 mt-5 different-item-wrapper">
             <div class="col-2">
                 <i class="bi bi-heart-fill"></i>
             </div>
@@ -191,7 +191,7 @@
                 </p>
             </div>
         </div>
-        <div class="row mb-lg-5 mt-5">
+        <div class="row mb-lg-5 mt-5 different-item-wrapper">
             <div class="col-2">
                 <i class="bi bi-hourglass-split"></i>
             </div>
@@ -205,7 +205,7 @@
                 </p>
             </div>
         </div>
-        <div class="row mb-lg-5 mt-5">
+        <div class="row mb-lg-5 mt-5 different-item-wrapper">
             <div class="col-2">
                 <i class="bi bi-flower1"></i>
             </div>
@@ -226,43 +226,41 @@
                 <h2 class="sub-title">Contact us</h2>
             </div>
         </div>
-        <div class="row mb-lg-5 mt-5 d-flex align-items-center">
-            <form>
-                <div class="row d-flex align-items-center">
-                    <div class="mb-3 col-2 d-flex align-items-center">
-                        <label for="InputEmail" class="form-label">Email address</label>
-                    </div>
-                    <div class="col-4">
-                        <input type="email" placeholder="jean-michel@mail.com" class="form-control" id="InputEmail"
-                               aria-describedby="emailHelp">
+        <div class="container">
+            <form role="form" class="form-horizontal mb-4">
+                <div class="form-group row mb-4">
+                    <label for="InputEmail" class="col-sm-2 col-form-label">
+                        Email address
+                    </label>
+                    <div class="col-sm-4">
+                    <input type="email" placeholder="jean-michel@mail.com" class="form-control" id="InputEmail"
+                           aria-describedby="emailHelp">
                     </div>
                 </div>
-                <div class="row d-flex align-items-center">
-                    <div class="mb-3 col-2 d-flex align-items-center">
-                        <label for="InputPassword" class="form-label">Password</label>
-                    </div>
-                    <div class="col-4">
+                <div class="form-group row mb-4">
+                        <label for="InputPassword" class="col-sm-2 col-form-label">Password</label>
+                    <div class="col-sm-4">
                         <input type="password" class="form-control" id="InputPassword">
                     </div>
                 </div>
-                <div class="row d-flex align-items-center">
-                    <div class="col-2">
-                        <label for="InputMessage" class="form-label">Message</label>
-                    </div>
-                    <div class="col-6">
+                <div class="form-group row mb-4">
+                        <label for="InputMessage" class="col-sm-2 col-form-label">Message</label>
+                    <div class="col-sm-4">
                         <textarea class="form-control" placeholder="J'ai un soucis avec ma grosse maison"
                                   id="InputMessage" rows="5"></textarea>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <div class="d-flex justify-content-end col-sm-6">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
             </form>
         </div>
     </div>
 </div>
 </body>
 <footer>
-    <div class="container d-flex justify-content-center">
-        <div class="row bg-black footer-row d-flex justify-content-center p-4">
+    <div class="container d-flex justify-content-center footer-container">
+        <div class="row bg-black footer-row d-flex justify-content-center p-4 footer-items-wrapper">
             <div class="col-3">
                 <h4>Title 1</h4>
                 <a> tristique</a>

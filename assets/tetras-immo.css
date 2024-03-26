@@ -39,3 +39,80 @@ footer .container,
 .footer-row{
     width: 100%;
 }
+
+@media (max-width: 900px) {
+    header{
+        background-image: url("logo-tetras-immo.webp");
+        height: 50vh;
+        margin-bottom: 20px;
+    }
+
+    .devise{
+        display: none;
+    }
+
+    .img-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:10px;
+        margin-bottom: 10px!important;
+    }
+
+    .img-wrapper div{
+        width: unset;
+    }
+
+    .container-portfolio{
+        margin-bottom: 0;
+    }
+
+
+    .our-expertise-child {
+        flex-direction: column;
+    }
+
+    .sub-title-wrapper{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .sub-title-wrapper h2{
+        font-size: 20px;
+    }
+    .expertise-child-wraper{
+        width: 90%;
+    }
+
+    .reverse{
+        flex-direction: column-reverse;
+    }
+
+    .different-item-wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .different-item-wrapper div{
+        width: unset;
+    }
+
+    .footer-items-wrapper{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer-container{
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+
+    }
+
+    .footer-items-wrapper div{
+        width: 50%;
+    }
+
+
+}
