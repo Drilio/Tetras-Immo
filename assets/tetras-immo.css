@@ -10,6 +10,13 @@ header{
     background-size: cover;
 }
 
+.button-modal{
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
 .separator{
     border-bottom: solid black;
     display: inline-block;
@@ -38,6 +45,37 @@ footer{
 footer .container,
 .footer-row{
     width: 100%;
+}
+
+.modal-dialog{
+    width: 60%;
+    max-width: unset;
+}
+.modal-content{
+    padding: 10px;
+}
+
+.carousel-item img{
+    height: 500px !important;
+    max-height: 500px !important;
+}
+
+.carousel-item div{
+    margin: 10px 10px;
+}
+
+.lorel-ipsum-content-carousel{
+    max-height: 200px;
+    height: 200px;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    top:250px;
+    align-items: unset;
+}
+
+.carousel-indicators{
+    bottom:250px;
 }
 
 @media (max-width: 900px) {
@@ -114,5 +152,27 @@ footer .container,
         width: 50%;
     }
 
+    .modal-dialog{
+        margin: auto;
+        width: 90%;
+    }
+
+    .carousel-item img{
+        height: 300px !important;
+        max-height: 500px !important;
+    }
+
+    .carousel-control-next, .carousel-control-prev{
+        top:140px;
+        align-items: unset;
+    }
+
+    .carousel-indicators{
+        display: none;
+    }
+
+    .modal{
+        margin-top: 50px ;
+    }
 
 }
